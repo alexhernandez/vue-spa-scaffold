@@ -1,4 +1,4 @@
-// GLOBAL FILTERS
+// FILTERS
 //
 
 export function parens (data) {

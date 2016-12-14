@@ -1,0 +1,21 @@
+// BASE
+
+html { box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+.version {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}

@@ -16,6 +16,6 @@ export default {
       msg: 'CONTACT'
     }
   },
-  components: { Navigation },
+  components: { Navigation }
 }
 </script>

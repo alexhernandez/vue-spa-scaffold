@@ -1,6 +1,6 @@
 {
-  "name": "opg",
-  "version": "1.0.0",
+  "name": "vue-spa-scaffold",
+  "version": "0.0.1",
   "devDependencies": {
     "gulp": "^3.9.1",
     "laravel-elixir": "^6.0.0-15",

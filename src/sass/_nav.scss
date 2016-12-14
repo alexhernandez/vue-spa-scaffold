@@ -1,0 +1,22 @@
+// NAV
+//
+
+  .nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .nav__item { display: inline-block; }
+
+  .nav__link {
+    color: #F28D77;
+    margin: 3px;
+    padding: 10px;
+    text-decoration: none;
+
+    &--active {
+      border: 1px solid #F28D77;
+      border-radius: 5px;
+    }
+  }

@@ -1,27 +1,15 @@
-// RESET
-body { margin: 0; padding: 0; background: none; border: 0; -webkit-text-size-adjust: 100%; }
-*, *:before, *:after { box-sizing: border-box; }
+// VUE-SPA-SCAFFOLD
+// ALEX HERNANDEZ, 2016
+//
 
-// TEMPLATE
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  font-weight: 100;
-  text-align: center;
-}
+// CORE
+@import 'normalize';
+@import 'base';
+@import 'type';
 
-// Helpers
-h1 { font-size: 48px; }
-.vh { height: 100vh; padding-top: 200px; }
-.white { background-color: #fff; color: #364259; }
-.blue { background-color: #364259; color: #fff; }
-.yellow { background-color: #F2D98C; color: #364259; }
+// COMPONENTS
+@import 'nav';
 
-// Transition
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity .5s;
-}
-.fade-enter,
-.fade-leave-active {
-  opacity: 0;
-}
+// UTILITY
+@import 'transitions';
+@import 'helpers';
