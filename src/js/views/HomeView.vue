@@ -1,20 +1,21 @@
 <template>
-  <div>
-    <br><br><br>
+  <div class="vh yellow">
     <h1>VUE SPA SCAFFOLD</h1>
     <p>{{ msg | parens }}</p>
-    <router-link to="/" exact>Home</router-link>
-    <router-link to="/about">About</router-link>
-    <router-link to="/contact">Contact</router-link>
+    <br>
+    <navigation></navigation>
   </div>
 </template>
 
 <script>
+import Navigation from './../components/Navigation.vue';
+
 export default {
   data() {
     return {
       msg: 'HOME'
     }
-  }
+  },
+  components: { Navigation },
 }
 </script>

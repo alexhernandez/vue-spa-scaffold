@@ -18,6 +18,7 @@ export default new VueRouter({
     { path: '/', component: home },
     { path: '/about', component: about },
     { path: '/contact', component: contact },
-  ]
+  ],
+  linkActiveClass: "nav__link--active",
   // scrollBehavior: () => ({ y: 0 }), FORCE SCROLL TOP ON ALL ROUTE NAVIGATIONS
 });

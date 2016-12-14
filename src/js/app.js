@@ -27,7 +27,6 @@ const app = new Vue({
   el: '#app',
   store, router,
   render: h => h(App),
-  ready() {}
 });
 
 // EXPOSE THE APP, THE ROUTER & THE STORE
