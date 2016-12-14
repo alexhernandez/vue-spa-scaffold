@@ -1,0 +1,4 @@
+// MODAL TYPES
+
+export const TOGGLE_LOADING = 'modal/TOGGLE_LOADING';
+export const TOGGLE_VISIBILITY = 'modal/TOGGLE_VISIBILITY';

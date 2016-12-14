@@ -1,2 +1,2 @@
 # vue-spa-scaffold
-SPA Boilerplate For Future Products
+Single Page Applications w/ Vue

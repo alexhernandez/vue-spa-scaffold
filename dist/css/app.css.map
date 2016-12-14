@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.scss"],"names":[],"mappings":"AAAA;EACE,+JAA+J;EAC/J,iBAAiB;EACjB,mBAAmB;CACpB","file":"app.css","sourcesContent":["body {\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\n  font-weight: 100;\n  text-align: center;\n}\n"]}
