@@ -10,7 +10,7 @@ import router from './router';
 import { sync } from 'vuex-router-sync';
 import * as filters from './filters';
 
-// AXIOS API CONFIG
+// API CONFIG - AXIOS
 axios.defaults.baseURL = document.querySelector('html').getAttribute('data-url');
 axios.defaults.headers.common['X-CSRF-TOKEN'] = document.querySelector('html').getAttribute('data-token');
 
